@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+}
+
+#app{
+  height: 100%;
+}
+
+.container{
+  gap: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1200px;
+  height: 100%;
+  padding: 50px 0;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+img{
+  max-width: 100%;
+  border-radius: 4px;
+}
+
+.circle{
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.palette-container{
+  gap: 15px;
+  padding: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 500px;
+  border-radius: 4px;
+  background: #fff;
+  justify-content: center;
+}
+
+.get-image{
+  border: none;
+  outline: none;
+  padding: 7px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}

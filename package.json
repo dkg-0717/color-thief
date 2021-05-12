@@ -1,0 +1,16 @@
+{
+  "name": "color-thief",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "live-server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "colorthief": "^2.3.2",
+    "live-server": "^1.2.1"
+  }
+}
