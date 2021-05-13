@@ -12,7 +12,7 @@
 <body>
 
   <div id="app">
-    <div class="container" :style="{ background: bgColor }">
+    <div class="container">
       <img alt="" :src="srcImage" id="image" />
       <div class="palette-container">
         <div class="circle" v-for="(c,index) in circles" :key="index"
@@ -27,6 +27,7 @@
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
   <script src="https://unpkg.com/vue@next"></script>
+  <script src="js/houdini.js"></script>
   <script type="module" src="js/app.js"></script>
 </body>
 

@@ -5,7 +5,7 @@ const app = createApp({
   setup() {
 
     const colorThief = new ColorThief();
-    let bgColor = ref('rgb(255,255,255)')
+    // let bgColor = ref('rgb(255,255,255)')
     let srcImage = ref('')
     let textButton = ref('get new image')
     let circles = ref([])
@@ -13,7 +13,7 @@ const app = createApp({
 
     const setDominantColor = (color) => {
       const [c1, c2, c3] = color
-      bgColor.value = `rgb(${c1},${c2},${c3})`
+      document.body.style.setProperty('--bg', `rgb(${c1},${c2},${c3})`)
     }
 
     const getColors = (img) => {
@@ -56,7 +56,7 @@ const app = createApp({
 
     return {
       circles,
-      bgColor,
+      // bgColor,
       srcImage,
       textButton,
       getImage,
